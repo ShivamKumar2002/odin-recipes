@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    color: darkorange;
+}
+
+.list-item {
+    color: red;
+    text-underline: none;
+}
+
+.list-item a {
+    color: blue;
+}
