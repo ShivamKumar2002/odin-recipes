@@ -1,13 +1,34 @@
-h1 {
+body {
+    font-size: 18px;
     text-align: center;
+    color: #444444;
+}
+
+h1 {
     color: darkorange;
 }
 
-.list-item {
-    color: red;
-    text-underline: none;
+h2 {
+    color: orange;
 }
 
-.list-item a {
+.recipe-description {
+    font-size: 20px;
+}
+
+a {
     color: blue;
+}
+
+.recipe-image {
+    width: 400px;
+    height: 400px;
+}
+
+.recipe-image.short {
+    height: 300px;
+}
+
+li, .recipe-ingredients, .recipe-steps {
+    text-align: left;
 }
